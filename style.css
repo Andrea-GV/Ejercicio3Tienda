@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: bisque;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+}
+.top{
+    width: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:#fe0000;
+    text-align: center;
+    align-items: center;
+}
+.gender-button{
+    text-transform: capitalize;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    width: 320px;
+    text-align: center;
+}
+.right{
+    width: 320px;
+    text-align: right;
+    padding-right: 50px;
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.align-content-center{
+    align-content: center;
+}
+.align-content-between{
+    align-content: space-between;
+}
+.capital{
+    text-transform: capitalize;
+}
+.pad-up{
+    padding: 40px 70px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-size{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.txt-center{
+    text-align: center;
+}
